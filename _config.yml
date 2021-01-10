@@ -72,6 +72,3 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-  
-  # Build settings
-markdown: kramdown
