@@ -1,0 +1,74 @@
+title: Dilip Rajeswari
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+palette: yellow
+header:
+  title: Dilip Rajeswari
+  tagline: Machine Learning Researcher
+  #logo_img: images/Dilip.jpeg
+  logo_img_alt: Dilip Rajeswari
+  background_img: images/header-bg.jpg
+  has_nav: true
+  nav_links:
+    - label: About me
+      url: /
+      style: link
+    - label: Work Experience
+      url: /work_experience
+      style: link
+    - label: Scientific Research
+      url: /scientific_research
+      style: link
+    - label: Design Thinking Research
+      url: /design_thinking_research
+      style: link
+    - label: Innovative Leadership
+      url: /innovative_leadership
+      style: link
+    - label: Achievements
+      url: /achievements
+      style: link
+    - label: Blogs
+      url: /blogs
+      style: link
+  has_social: true
+  social_links:
+    - label: Twitter
+      url: 'https://twitter.com/neuro_quanta'
+      style: icon
+      icon_class: twitter
+      new_window: true
+    - label: GitHub
+      url: 'https://github.com/diliprajeswari'
+      style: icon
+      icon_class: github
+      new_window: true
+    - label: LinkedIn
+      url: 'https://www.linkedin.com/in/dilip-rajeswari-5a900818a/'
+      style: icon
+      icon_class: linkedin
+      new_window: true
+
+
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
