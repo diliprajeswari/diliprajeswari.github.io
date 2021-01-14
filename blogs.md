@@ -1,7 +1,7 @@
 ---
 title: Blogs
-img_path: images/about.jpg
-layout: home
+img_path: images/pencils.jpg
+layout: page
 ---
 
 - Neuromatch Experience
