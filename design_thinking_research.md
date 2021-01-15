@@ -1,6 +1,6 @@
 ---
 title: Design Thinking Research
-img_path: images/contact.jpg
+img_path: images/dual_brain.png
 layout: page
 ---
 

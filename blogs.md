@@ -1,6 +1,6 @@
 ---
 title: Blogs
-img_path: images/pencils.jpg
+img_path: images/writer.png
 layout: page
 ---
 

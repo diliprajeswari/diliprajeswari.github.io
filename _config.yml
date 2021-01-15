@@ -19,15 +19,15 @@ header:
     - label: Work Experience
       url: /work_experience
       style: link
-    - label: Scientific Research
+    - label: Publications & Patents
       url: /scientific_research
       style: link
     - label: Design Thinking Research
       url: /design_thinking_research
       style: link
-    - label: Innovative Leadership
-      url: /innovative_leadership
-      style: link
+    #- label: Innovative Leadership
+    #  url: /innovative_leadership
+    #  style: link
     #- label: Achievements
     #  url: /achievements
     #  style: link
@@ -50,6 +50,12 @@ header:
       url: 'https://www.linkedin.com/in/dilip-rajeswari-5a900818a/'
       style: icon
       icon_class: linkedin
+      new_window: true
+    - label: Email
+      url: 'mailto:dilip11235@gmail.com'
+      style: icon
+      #icon_class: envelope
+      fa-icon: 'fa-envelope-square'
       new_window: true
 
 
