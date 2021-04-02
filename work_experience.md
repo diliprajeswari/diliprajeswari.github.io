@@ -1,7 +1,7 @@
 ---
 title: Work Experience
 subtitle: This is a short page about my work
-img_path: images/about.jpg
+img_path: images/gif.gif
 layout: page
 ---
 

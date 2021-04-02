@@ -25,15 +25,17 @@ header:
     - label: Design Thinking Research
       url: /design_thinking_research
       style: link
-    #- label: Innovative Leadership
-    #  url: /innovative_leadership
-    #  style: link
     #- label: Achievements
     #  url: /achievements
     #  style: link
+    - label: Reading List
+      url: /reading_list
+      style: link
     - label: Blogs
       url: /blogs
       style: link
+
+
   has_social: true
   social_links:
     - label: Twitter
@@ -51,11 +53,15 @@ header:
       style: icon
       icon_class: linkedin
       new_window: true
-    - label: Email
+    - label: M
       url: 'mailto:dilip11235@gmail.com'
       style: icon
       #icon_class: envelope
       fa-icon: 'fa-envelope-square'
+      new_window: true
+    - label: CV
+      url: 'https://www.linkedin.com/in/dilip-rajeswari-5a900818a/'
+      style: icon
       new_window: true
 
 
