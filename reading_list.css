@@ -1,0 +1,55 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+body{height: 900px;
+background-image: url("https://media.istockphoto.com/photos/blue-light-background-old-grunge-texture-blank-pastel-abstract-paper-picture-id1217216727?b=1&k=6&m=1217216727&s=170667a&w=0&h=Dtc2EHpnxcWh8nU6mqGbtXmckuKAC7YakXXCsymBMaA=");
+font-family: Arial;
+}
+
+header {
+text-align: center;
+width: 100%;
+height: auto;
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+overflow: hidden;
+border-radius: 0 0 85% 85% / 30%;
+color: rgb(0, 0, 0);
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}

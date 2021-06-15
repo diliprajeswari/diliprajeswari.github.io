@@ -16,7 +16,7 @@ header:
     - label: About me
       url: /
       style: link
-    - label: Work Experience
+    - label: Work and Research Experience
       url: /work_experience
       style: link
     - label: Publications & Patents
