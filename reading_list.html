@@ -3,251 +3,437 @@ title: Reading List
 img_path: images/books.jpg
 layout: page
 ---
+
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<style>
-*{padding: 0; margin: 0; box-sizing: border-box;}
-body{
-background-image: url("https://media.istockphoto.com/vectors/brown-paper-texture-background-vector-vector-id912279268?k=6&m=912279268&s=612x612&w=0&h=LabZMJJKfCXXtJUrwgk8VD5KuRwqUsFfAAsythJCJYQ=");
-background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: cover;
-color: #000000;
-font-size: 18px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            body {
+                background-image: url('https://media.istockphoto.com/vectors/brown-paper-texture-background-vector-vector-id912279268?k=6&m=912279268&s=612x612&w=0&h=LabZMJJKfCXXtJUrwgk8VD5KuRwqUsFfAAsythJCJYQ=');
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                color: #000000;
+                font-size: 18px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+                    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
 
-.imgContainer{
-/*    float:left; */
-    display:inline-block;
-    padding: 10px;
-}
+            .imgContainer {
+                /*    float:left; */
+                display: inline-block;
+                padding: 25px;
+            }
 
-/* Style the tab */
-.tab {
-  overflow: hidden;
-  border: 6px solid #602D0D;
-  background-color: #602D0D;
-}
+            /* Style the tab */
+            .tab {
+                overflow: hidden;
+                border: 6px solid #602d0d;
+                background-color: #602d0d;
+            }
 
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 12px 14px;
-  transition: 0.3s;
-  font-size: 17px;
-}
+            /* Style the buttons inside the tab */
+            .tab button {
+                background-color: inherit;
+                float: left;
+                border: none;
+                outline: none;
+                cursor: pointer;
+                padding: 12px 14px;
+                transition: 0.3s;
+                font-size: 17px;
+            }
 
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: rgb(177, 122, 74);
-}
+            /* Change background color of buttons on hover */
+            .tab button:hover {
+                background-color: rgb(177, 122, 74);
+            }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #895125;
-}
+            /* Create an active/current tablink class */
+            .tab button.active {
+                background-color: #895125;
+            }
 
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-  border: 10px solid #602D0D;
-  border-top: none;
+            /* Style the tab content */
+            .tabcontent {
+                display: none;
+                padding: 6px 12px;
+                border: 10px solid #602d0d;
+                border-top: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="tab">
+            <button
+                class="tablinks"
+                onclick="openCity(event, 'Popular')"
+                id="defaultOpen"
+            >
+                Popular Science
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'Novels')">
+                Novels
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'Physics')">
+                Physics Popular Science
+            </button>
+            <button class="tablinks" onclick="openCity(event, 'Business')">
+                Business and Management
+            </button>
+        </div>
 
-}
-</style>
-</head>
-<body>
+        <div id="Novels" class="tabcontent">
+            <div class="image123">
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/Atlas Shrugged.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/Wuthering Heights.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/To Kill a Mockingbird.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/Nineteen Eighty-Four.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/Beneath a Scarlet Sky.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/Catch-22.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/The Book Thief.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/The Nightingale.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/Brave New World.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Novels/War and Peace.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+            </div>
+        </div>
 
+        <div id="Popular" class="tabcontent">
+            <div class="image123">
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/Behave.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/Being Mortal.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/GEB.jpg/"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/The Gene - An Intimate History.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/Other Minds - The Octopus, the Sea, and the Deep Origins of Consciousness.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/Sapiens.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/The Brain that Changes Itself.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/The Center Cannot Hold.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/The Emperor of All Maladies.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/Better - a surgeon's notes on performance.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/The Language Instinct.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/The Origin of Consciousness in the Breakdown of the Bicameral Mind.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/The Patient Will See You Now.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/Thinking, Fast and Slow.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/When Breath Becomes Air.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Popular Science/The Selfish Gene.jpg"
+                        alt="Book"
+                        height="250"
+                        width="180"
+                    />
+                </div>
+            </div>
+        </div>
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Novels')" id="defaultOpen">Novels</button>
-  <button class="tablinks" onclick="openCity(event, 'Business')">Business and Management</button>
-  <button class="tablinks" onclick="openCity(event, 'Physics')">Physics Popular Science</button>
-  <button class="tablinks" onclick="openCity(event, 'Popular')">Popular Science</button>
-</div>
+        <div id="Physics" class="tabcontent">
+            <div class="image123">
+                <div class="imgContainer">
+                    <img
+                        src="/Physics Popular Science/QED - The Strange Theory of Light and Matter.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Physics Popular Science/Surely You're Joking, Mr. Feynman.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Physics Popular Science/A Brief History of Time.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Physics Popular Science/The Elegant Universe.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Physics Popular Science/The Grand Design.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Physics Popular Science/A Briefer History of Time.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+            </div>
+        </div>
 
+        <div id="Business" class="tabcontent">
+            <div class="image123">
+                <div class="imgContainer">
+                    <img
+                        src="/Business and Management/Bad Blood - Secrets and Lies in a Silicon Valley Startup.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Business and Management/The Black Swan.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Business and Management/Reminiscences of a Stock Operator.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Business and Management/Zero to One.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Business and Management/The Intelligent Investor.jpg"
+                        alt="Book"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+                <div class="imgContainer">
+                    <img
+                        src="/Business and Management/The New Market Wizards.jpg"
+                        alt="Snow"
+                        height="270"
+                        width="180"
+                    />
+                </div>
+            </div>
+        </div>
 
+        <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks
+                tabcontent = document.getElementsByClassName('tabcontent')
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = 'none'
+                }
+                tablinks = document.getElementsByClassName('tablinks')
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(
+                        ' active',
+                        ''
+                    )
+                }
+                document.getElementById(cityName).style.display = 'block'
+                evt.currentTarget.className += ' active'
+            }
 
-
-
-<div id="Novels" class="tabcontent">
-  <div class="image123">
-    <div class="imgContainer">
-      <img src="/Novels/Atlas Shrugged.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Novels/Wuthering Heights.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Novels/To Kill a Mockingbird.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Novels/Nineteen Eighty-Four.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Novels/Beneath a Scarlet Sky.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Novels/Catch-22.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Novels/The Book Thief.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Novels/The Nightingale.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Novels/Brave New World.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Novels/War and Peace.jpg" alt="Book" height="270" width="180">
-    </div>
-  </div>
-</div>
-
-
-
-
-<div id="Business" class="tabcontent">
-  <div class="image123">
-    <div class="imgContainer">
-      <img src="/Business and Management/Bad Blood - Secrets and Lies in a Silicon Valley Startup.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Business and Management/The Black Swan.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Business and Management/Reminiscences of a Stock Operator.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Business and Management/Zero to One.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Business and Management/The Intelligent Investor.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Business and Management/The New Market Wizards.jpg" alt="Snow" height="270" width="180">
-    </div>
-  </div>
-</div>
-
-
-
-
-<div id="Physics" class="tabcontent">
-  <div class="image123">
-    <div class="imgContainer">
-      <img src="/Physics Popular Science/QED - The Strange Theory of Light and Matter.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Physics Popular Science/Surely You're Joking, Mr. Feynman.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Physics Popular Science/A Brief History of Time.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Physics Popular Science/The Elegant Universe.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Physics Popular Science/The Grand Design.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Physics Popular Science/A Briefer History of Time.jpg" alt="Book" height="270" width="180">
-    </div>
-  </div>
-</div>
-
-
-
-
-<div id="Popular" class="tabcontent">
-  <div class="image123">
-    <div class="imgContainer">
-      <img src="/Popular Science/Behave.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/Being Mortal.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/Better - a surgeon's notes on performance.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/GEB.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/Other Minds - The Octopus, the Sea, and the Deep Origins of Consciousness.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/Sapiens.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/The Brain that Changes Itself.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/The Center Cannot Hold.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/The Emperor of All Maladies.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/The Gene - An Intimate History.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/The Language Instinct.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/The Origin of Consciousness in the Breakdown of the Bicameral Mind.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/The Patient Will See You Now.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/The Selfish Gene.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/Thinking, Fast and Slow.jpg" alt="Book" height="270" width="180">
-    </div>
-    <div class="imgContainer">
-      <img src="/Popular Science/When Breath Becomes Air.jpg" alt="Book" height="270" width="180">
-    </div>
-  </div>
-
-
-</div>
-
-
-
-
-
-
-
-<script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
-</script>
-
-</body>
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById('defaultOpen').click()
+        </script>
+    </body>
 </html>
