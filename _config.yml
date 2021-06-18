@@ -53,16 +53,13 @@ header:
       style: icon
       icon_class: linkedin
       new_window: true
-    - label: M
+    - label: Email
       url: 'mailto:dilip11235@gmail.com'
       style: icon
-      #icon_class: envelope
-      fa-icon: 'fa-envelope-square'
+      icon_class: email
+      #fa-icon: 'bi bi-envelope'
       new_window: true
-    - label: CV
-      url: 'https://drive.google.com/file/d/1Ff9PITazTf7s3t192o63zaD-wzNDLQOD/view?usp=sharing'
-      style: icon
-      new_window: true
+
 
 
 sass:
